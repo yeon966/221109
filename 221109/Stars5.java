@@ -1,17 +1,17 @@
-/*	4.
-	    *
-	   ***
-	  *****
-	 *******
-	*********
+/*	5.
+*********
+ *******	   
+  *****
+   ***
+    *
 */
-public class Stars4{
+public class Stars5{
 	public static void main(String[] args){
 		String star = "*";
-		int a = -1;
-		for (int j = 5; j > 0; j--){
-			a++;
-			for (int i = 1; i <= 5 + a; i++){
+		int a = 0;
+		for (int j = 0; j < 5; j++){
+			a--;
+			for (int i = 0; i <= 9 + a; i++){
 				if (i < j) {
 				System.out.print(" ");	
 				} else {
